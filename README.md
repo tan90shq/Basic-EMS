@@ -48,7 +48,7 @@ Basic-Employee-Manangment-System/
 
 ### 1. Clone the Repository
 ```bash
-git clone <repository-url>
+git clone https://github.com/tan90shq/Basic-EMS.git
 cd Basic-Employee-Manangment-System
 ```
 
