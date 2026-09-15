@@ -77,12 +77,17 @@ The application will be live at `http://127.0.0.1:8000`.
 
 ---
 
-## 📖 API Documentation & Endpoints
+## 🧪 Testing with Interactive API Docs (`/docs`)
 
-Once the application is running, access the interactive documentation directly in your browser:
+FastAPI automatically generates an interactive Swagger UI documentation page where you can test all endpoints directly from your browser without needing Postman or cURL:
 
-- **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
-- **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+1. Start the server and visit **[http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)**.
+2. Click on any endpoint (e.g., `POST /add`, `GET /view`, or `PUT /update/{emp_id}`).
+3. Click the **"Try it out"** button in the top-right of that endpoint block.
+4. Fill in the query/path parameters or edit the JSON request body.
+5. Click **"Execute"** to send the request live and view the status code, response body, and validation errors.
+
+You can also view alternative documentation at **[http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)**.
 
 ### Summary of Routes
 
